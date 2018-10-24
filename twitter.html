@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="twitter.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav
+  <ul class="top">
+    <div
+      <h1>Tweeter</h1>
+    </div>
+  </ul>
+  </nav>
+
+  <div class="content">
+    <div>
+    <img src="fotooriginal.png" align="center" alt="Avatar" style="width:230px">
+    </div>
+
+    <div class="infos">
+    <h1>I'm Wanessa!</h1>
+    <h2>"Renda-se como eu me rendi. Mergulhe no que você não conhece como eu mergulher. Não se preocupe em entender, viver ultrapassa qualquer entendimento." <br><br>Clarice Lispector</h2>
+
+    </div>  
+  </div>  
+
+    <div class="message">
+    <textarea class="message increase" type="text" onkeyup="contador_area(this.value)" cols="115" rows="10" placeholder="What's happening?"></textarea>
+    <span id="contador">140</span>
+    </div>
+
+    <div>
+    <button disabled="true" class="botao" align="center" style="width: 90px; height: 40px">Tweetar</button>
+    </div>
+
+    </div>
+    <div class="tweets">
+    </div>
+
+    <script src="twitter.js"></script>
+    <script src="moment.js"></script>
+  </body>
+</html>

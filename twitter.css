@@ -1,0 +1,119 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+.top{
+  background-color: #6D8A9C;
+  font-family: 'Josefin Slab', serif;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  color: #FFFFFF;
+  font-size: 70px;
+  padding: 25px;
+}
+
+body{
+  background-image: url("mosaic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  bottom: 0px;
+  text-align: center;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.botao {
+color: #FFFFFF;
+font-family: 'Josefin Slab', serif;
+background-color: #6D8A9C;
+border-radius: 5px;
+font-size: 20px;
+}
+
+.botao:disabled{
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.content{
+  display: flex;
+  font-family: 'Josefin Slab', serif;
+  justify-content: center;
+  padding-top: 50px;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+h1{
+  color: #A98480;
+  font-size: 40px;
+  box-shadow: 15px 0 0 0 #FFFFFF, -15px 0 0 0 #FFFFFF;
+  background: #FFFFFF;
+  display: inline;
+  padding: 3px 0 !important;
+  position: relative;
+}
+
+h2{
+  color: #A98480;
+  background: #FFFFFF;
+  font-size: 22px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.6);
+  height: 140px;
+  width: 390px;
+  padding: 20px;
+}
+
+.message{
+  margin-top: 40px;
+}
+
+img{
+    border-radius: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 60px;
+}
+
+.message{
+  border-radius: 10px;
+  align-items: center;
+  resize: none;
+  overflow: hidden;
+  outline: none;
+}
+
+.posts{
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  width: 560px;
+  margin: 0 auto;
+}
+
+#contador{
+  display: block;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 23px;
+}
+
+.posts small{
+  color: purple;
+}
+
+.button{
+  outline: none;
+}
