@@ -6,7 +6,7 @@ var botao = document.querySelector(".botao");
 function addTweet () {
   var bloco = document.createElement("div");
   var text = document.createElement("p");
-  recebeTweet.prepend(bloco);
+  recebeTweet.prepend(bloco); 
   text.textContent = recebeTexto.value;
   bloco.setAttribute("class", "posts");
   bloco.appendChild(text);
